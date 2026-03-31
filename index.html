@@ -17,9 +17,6 @@
     fbq('init', '940599298378617');
     fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=940599298378617&ev=PageView&noscript=1"
-    /></noscript>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
         
@@ -52,22 +49,23 @@
             border-radius: 20px;
             font-size: 13px;
             display: inline-block;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
 
         .profile-img {
             width: 110px;
             height: 110px;
             border-radius: 50%;
-            margin-bottom: 20px;
+            margin: 0 auto 20px;
+            display: block;
             object-fit: cover;
-            border: 1px solid rgba(255,255,255,0.2);
+            border: 2px solid rgba(255,255,255,0.3);
         }
 
-        h1 { font-size: 26px; margin-bottom: 8px; font-weight: 700; }
+        h1 { font-size: 26px; margin-bottom: 8px; font-weight: 700; text-transform: uppercase; }
         .sub-text { color: #bbb; font-size: 14px; margin-bottom: 25px; line-height: 1.4; }
 
-        .timer-box { margin-bottom: 20px; font-weight: bold; font-size: 16px; }
+        .timer-box { margin-bottom: 20px; font-weight: bold; font-size: 17px; }
         .timer-box span { color: #2ecc71; }
 
         .btn {
@@ -77,10 +75,10 @@
             background: linear-gradient(to right, #e65100, #fb8c00);
             color: white;
             text-decoration: none;
-            padding: 16px;
-            border-radius: 18px;
+            padding: 18px;
+            border-radius: 20px;
             font-weight: 900;
-            font-size: 20px;
+            font-size: 22px;
             margin-bottom: 20px;
             box-shadow: 0 8px 25px rgba(230, 81, 0, 0.4);
         }
@@ -89,41 +87,43 @@
             content: '➤';
             font-size: 14px;
             background: rgba(0,0,0,0.2);
-            width: 25px;
-            height: 25px;
+            width: 28px;
+            height: 28px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-left: 10px;
+            margin-left: 12px;
         }
 
-        .promo-text { font-size: 12px; color: #888; margin-bottom: 25px; }
+        .promo-text { font-size: 12px; color: #888; margin-bottom: 20px; }
 
         .disclaimer {
             font-size: 10px;
-            color: #666;
+            color: #555;
             border-top: 1px dashed #333;
-            padding-top: 20px;
+            padding-top: 15px;
             margin-bottom: 25px;
-            line-height: 1.5;
+            line-height: 1.4;
         }
 
-        /* Kunal Ads Clickable Button */
+        /* KUNAL ADS - Different Color & Style */
         .ads-setup-btn {
-            background: rgba(255, 255, 255, 0.05);
+            background: linear-gradient(135deg, #004e92, #000428); /* Blue Dark Theme */
             padding: 15px;
             border-radius: 15px;
             text-decoration: none;
-            color: #ffcc00;
+            color: #00d2ff; /* Cyan color text */
             display: block;
             font-weight: bold;
-            font-size: 14px;
-            border: 1px solid rgba(255, 204, 0, 0.2);
+            font-size: 15px;
+            border: 1px solid #00d2ff;
+            box-shadow: 0 4px 15px rgba(0, 210, 255, 0.2);
             transition: 0.3s;
         }
         .ads-setup-btn:hover {
-            background: rgba(255, 204, 0, 0.15);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 210, 255, 0.4);
         }
     </style>
 </head>
@@ -132,7 +132,7 @@
 <div class="container">
     <div class="badge">🎾 cricket Updates & Insights</div>
     
-    <img src="logo.png" alt="Tiger" class="profile-img">
+    <img src="logo.png" alt="Tiger Logo" class="profile-img">
 
     <h1>CRICKET MATCH WINNER</h1>
     <p class="sub-text">Honest analysis • Match insights • Community driven</p>
@@ -152,7 +152,7 @@
     </div>
 
     <a href="https://t.me/+jE7sEbzR23gwM2U1" class="ads-setup-btn">
-        Ads Setup Ke Liye DM Karo - Kunal Ads 🚀
+        🚀 Ads Setup Ke Liye DM Karo - Kunal Ads
     </a>
 </div>
 
